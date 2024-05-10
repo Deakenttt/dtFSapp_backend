@@ -22,4 +22,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # EXPOSE 5000
 
 # Run main.py (Flask server) when the container launches
-CMD gunicorn --bind 0.0.0.0:$PORT main:main
+CMD gunicorn --bind 0.0.0.0:$PORT main:app
