@@ -1,4 +1,8 @@
 Flask
 Flask-SQLAlchemy
 flask-cors
-
+werkzeug
+ffmpeg-python
+requests
+gunicorn
+scipy

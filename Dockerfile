@@ -16,7 +16,7 @@ ADD . /main
 # RUN pip install --no-cache-dir -r requirements.txt
 
 # Install necessary packages, Flask and ffmpeg-python
-RUN pip install --no-cache-dir flask werkzeug ffmpeg-python requests gunicorn scipy moviepy flask_sqlalchemy
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 5000 available to the world outside this container
 # EXPOSE 5000
